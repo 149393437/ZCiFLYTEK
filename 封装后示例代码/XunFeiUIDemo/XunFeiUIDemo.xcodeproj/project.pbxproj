@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		376A9EE81DC1EDF7004C2013 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376A9EE71DC1EDF7004C2013 /* iflyMSC.framework */; };
 		37C39FFC1AF8B245009533AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C39FFB1AF8B245009533AC /* main.m */; };
 		37C39FFF1AF8B245009533AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C39FFE1AF8B245009533AC /* AppDelegate.m */; };
 		37C3A0021AF8B245009533AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C3A0011AF8B245009533AC /* ViewController.m */; };
@@ -14,7 +15,6 @@
 		37C3A0071AF8B245009533AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37C3A0061AF8B245009533AC /* Images.xcassets */; };
 		37C3A00A1AF8B245009533AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37C3A0081AF8B245009533AC /* LaunchScreen.xib */; };
 		37C3A0161AF8B245009533AC /* XunFeiUIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C3A0151AF8B245009533AC /* XunFeiUIDemoTests.m */; };
-		37C3A0201AF8B26F009533AC /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C3A01F1AF8B26F009533AC /* iflyMSC.framework */; };
 		37C3A0231AF8B284009533AC /* ZCiFLYTEK.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C3A0221AF8B284009533AC /* ZCiFLYTEK.m */; };
 		37C3A0251AF8B2C4009533AC /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C3A0241AF8B2C4009533AC /* AdSupport.framework */; };
 		37C3A0271AF8B2CA009533AC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37C3A0261AF8B2CA009533AC /* AddressBook.framework */; };
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		376A9EE71DC1EDF7004C2013 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		37C39FF61AF8B245009533AC /* XunFeiUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XunFeiUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C39FFA1AF8B245009533AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37C39FFB1AF8B245009533AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -50,7 +51,6 @@
 		37C3A00F1AF8B245009533AC /* XunFeiUIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XunFeiUIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C3A0141AF8B245009533AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37C3A0151AF8B245009533AC /* XunFeiUIDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XunFeiUIDemoTests.m; sourceTree = "<group>"; };
-		37C3A01F1AF8B26F009533AC /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
 		37C3A0211AF8B284009533AC /* ZCiFLYTEK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCiFLYTEK.h; sourceTree = "<group>"; };
 		37C3A0221AF8B284009533AC /* ZCiFLYTEK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCiFLYTEK.m; sourceTree = "<group>"; };
 		37C3A0241AF8B2C4009533AC /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
@@ -74,9 +74,9 @@
 				37C3A02D1AF8B2DC009533AC /* AudioToolbox.framework in Frameworks */,
 				37C3A02B1AF8B2D7009533AC /* SystemConfiguration.framework in Frameworks */,
 				37C3A0291AF8B2D1009533AC /* QuartzCore.framework in Frameworks */,
+				376A9EE81DC1EDF7004C2013 /* iflyMSC.framework in Frameworks */,
 				37C3A0271AF8B2CA009533AC /* AddressBook.framework in Frameworks */,
 				37C3A0251AF8B2C4009533AC /* AdSupport.framework in Frameworks */,
-				37C3A0201AF8B26F009533AC /* iflyMSC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +119,7 @@
 		37C39FF81AF8B245009533AC /* XunFeiUIDemo */ = {
 			isa = PBXGroup;
 			children = (
-				37C3A01F1AF8B26F009533AC /* iflyMSC.framework */,
+				376A9EE71DC1EDF7004C2013 /* iflyMSC.framework */,
 				37C39FFD1AF8B245009533AC /* AppDelegate.h */,
 				37C39FFE1AF8B245009533AC /* AppDelegate.m */,
 				37C3A0001AF8B245009533AC /* ViewController.h */,
@@ -390,6 +390,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/XunFeiUIDemo",
+					"$(PROJECT_DIR)/XunFeiUIDemo",
 				);
 				INFOPLIST_FILE = XunFeiUIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -404,6 +405,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/XunFeiUIDemo",
+					"$(PROJECT_DIR)/XunFeiUIDemo",
 				);
 				INFOPLIST_FILE = XunFeiUIDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

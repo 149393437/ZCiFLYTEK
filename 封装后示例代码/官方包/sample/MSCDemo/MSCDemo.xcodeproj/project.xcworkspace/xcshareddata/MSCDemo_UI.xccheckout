@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>11A2AAEF-6EA1-4B1B-84FB-44872CB84DDF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MSCDemo_UI</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2b62823a-d849-f642-89a4-a4e023b26025++38</key>
+		<string>https://192.168.75.168:8888/svn/Y_SPA/Trunk/Development/SourceForIOS</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MSC/release/control/sample/MSCDemo/MSCDemo_UI.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2b62823a-d849-f642-89a4-a4e023b26025++38</key>
+		<string>../../../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>2b62823a-d849-f642-89a4-a4e023b26025++38</key>
+		<string>https://192.168.75.168:8888/svn/Y_SPA</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://192.168.75.168:8888/svn/Y_SPA/Trunk/Development/SourceForIOS/MSC/release/control/sample/MSCDemo/MSCDemo_UI.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2b62823a-d849-f642-89a4-a4e023b26025++38</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2b62823a-d849-f642-89a4-a4e023b26025++38</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SourceForIOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

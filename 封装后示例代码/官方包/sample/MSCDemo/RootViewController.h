@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @class PopupView;
-@interface RootViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>
+@interface RootViewController : UITableViewController<UITableViewDelegate,UITableViewDataSource>
 { 
     NSArray         *_functions;
     UITextView      *_thumbView;

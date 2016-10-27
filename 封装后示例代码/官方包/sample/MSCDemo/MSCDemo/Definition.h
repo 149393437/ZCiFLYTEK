@@ -13,11 +13,11 @@
 #define IOS7_OR_LATER   ( [[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending )
 #define ButtonHeight 44
 #define NavigationBarHeight 44
-#define APPID_VALUE @"52bbb432"
+
+#define APPID_VALUE           @"54759baa"
 #define URL_VALUE             @""                 // url
 #define TIMEOUT_VALUE         @"20000"            // timeout      连接超时的时间，以ms为单位
 #define BEST_URL_VALUE        @"1"                // best_search_url 最优搜索路径
-
 
 #define SEARCH_AREA_VALUE     @"安徽省合肥市"
 #define ASR_PTT_VALUE         @"1"
@@ -37,7 +37,3 @@
 #else
 # define IFLY_ALIGN_LEFT UITextAlignmentLeft
 #endif
-
-@interface Definition : NSObject
-
-@end

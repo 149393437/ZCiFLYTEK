@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/IFlyISVRecognizer.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/IFlyISVRecognizer</TokenIdentifier>
+			<Abstract type="html">声纹接口类</Abstract>
+			<DeclaredIn>IFlyISVRecognizer.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+        
+        
+	</File>
+</Tokens>

@@ -5,6 +5,8 @@
 //  Created by ZhangCheng on 14-4-19.
 //  Copyright (c) 2014年 zhangcheng. All rights reserved.
 //版本说明 iOS研究院 305044955
+//ZC封装语音识别3.0版本
+//官方版本升级，进行相关适配。解决单例无UI无法识别问题
 //ZC封装语音识别2.0版本
 //支持64位，改变了UI，更加好看 把UI的SDK和不带UI的SDK合并了
 //ZC封装语音识别1.0版本
@@ -43,12 +45,13 @@
 #import <Foundation/Foundation.h>
 //读取
 
-#import "iflyMSC/IFlySpeechSynthesizer.h"
+#import <iflyMSC/IFlySpeechSynthesizer.h>
 //识别
 //带界面的语音识别
-#import "iflyMSC/IFlyRecognizerView.h"
+#import <iflyMSC/IFlyRecognizerView.h>
 //不带界面的语音识别
-#import "iflyMSC/IFlySpeechRecognizer.h"
+#import <iflyMSC/IFlySpeechRecognizer.h>
+#import <iflyMSC/IFlyRecognizerViewDelegate.h>
 
 @interface ZCiFLYTEK : NSObject
 <IFlySpeechSynthesizerDelegate,IFlyRecognizerViewDelegate,IFlySpeechRecognizerDelegate>
@@ -59,7 +62,7 @@
     IFlyRecognizerView*iFlyRecognizerView;//界面识别
     
     IFlySpeechRecognizer*iFlyRecognizer;
-    
+    NSMutableString *result;
 }
 
 @property(nonatomic,copy)void(^onResult)(NSString*);

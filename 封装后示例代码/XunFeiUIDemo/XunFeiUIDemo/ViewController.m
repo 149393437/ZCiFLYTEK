@@ -43,7 +43,7 @@
 -(void)recognition{
     //识别
     ZCiFLYTEK*xunfei=[ZCiFLYTEK shareManager];
-    [xunfei discernShowView:self.view Block:^(NSString *xx) {
+    [xunfei discernShowView:nil Block:^(NSString *xx) {
         NSLog(@"~~~%@",xx);
     }];
     

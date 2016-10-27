@@ -16,6 +16,8 @@ static ZCiFLYTEK *manager=nil;
 -(id)init
 {
     if (self=[super init]) {
+        result = [[NSMutableString alloc] init];
+
         [IFlySpeechUtility createUtility:@"appid=54759baa,timeout=1000"];
 
     }
@@ -77,22 +79,22 @@ static ZCiFLYTEK *manager=nil;
     }
 
 }
-
-//代理
-//识别完成
-- (void)onResult:(NSArray *)resultArray isLast:(BOOL)isLast
+-(void)onResults:(NSArray *)results isLast:(BOOL)isLast
 {
-    NSMutableString *result = [[NSMutableString alloc] init];
-    NSDictionary *dic = [resultArray objectAtIndex:0];
+    NSDictionary *dic = [results objectAtIndex:0];
     for (NSString *key in dic) {
         [result appendFormat:@"%@(置信度:%@)\n",key,[dic objectForKey:key]];
         
     }
-    if ([result hasPrefix:@"。"]) {
-        return;
+    if (isLast) {
+         self.onResult(result);
     }
-    self.onResult(result);
+   
+
 }
+//代理
+//识别完成
+
 - (void)onError:(IFlySpeechError *)error
 {
     self.onResult(nil);

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2b62823a-d849-f642-89a4-a4e023b26025++4332",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "2b62823a-d849-f642-89a4-a4e023b26025++4332" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2b62823a-d849-f642-89a4-a4e023b26025++4332" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C176C3B4-8B8F-4258-B43D-A1ADBD720F29",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2b62823a-d849-f642-89a4-a4e023b26025++4332" : "MSC\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MSCDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "test\/control\/sample\/MSCDemo\/MSCDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.75.168:8888\/svn\/Y_SPA",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2b62823a-d849-f642-89a4-a4e023b26025++4332"
+    }
+  ]
+}
